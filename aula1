@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+type retangulo struct {
+	largura int
+	altura  int
+}
+
+func main() {
+	r := retangulo{
+		5,
+		3}
+	fmt.Println("Área =", r.largura*r.altura)
+}
